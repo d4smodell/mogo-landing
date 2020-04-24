@@ -20,12 +20,80 @@
     .section{
         padding: 40px 0;
     }
+
     /*Slider*/
     .intro{
         .slider{
             display: none;
         }
     }
+    
+    /*Stat*/
+    .stat{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /*Services*/
+    .services__block{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /*We do*/
+    .wedo{
+        display: flex;
+        flex-direction: column;
+        .wedo__item{
+            padding-top: 20px;
+            justify-content: center;
+            width: 100%;
+        }
+    }
+
+    /*Card*/
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card__item{
+        width: 100%;
+        max-width: 410px;
+    }
+
+    /*Works*/
+    .works{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    /*Comments*/
+    .comments__item{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /*People*/
+    .people__block{
+        display: flex;
+        flex-wrap: wrap;
+        .people__item{
+            width: 25%;
+            img{
+                display: none;
+            }
+        }
+    }
+
+    /*Blog*/
+    .blog{
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+    }
+
 }
 
 @media (max-width: 650px) {
@@ -39,14 +107,92 @@
         }
     }
 
-        /*Section*/
-        .section{
-            padding: 40px 0;
-            .section__title{
-                font-size: 24px;
-            }
-            .section__subtitle{
-                font-size: 20px;
+    /*Section*/
+    .section{
+        padding: 40px 0;
+        .section__title{
+            font-size: 24px;
+        }
+        .section__title{
+            margin: 20px auto;
+        }
+        .section__subtitle{
+            font-size: 20px;
+        }
+        .section__header{
+            margin-bottom: 30px;
+        }
+    }
+
+    /*Card*/
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card__item{
+        width: 100%;
+        max-width: 410px;
+    }
+
+    /*Stat*/
+    .stat{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*Services*/
+    .services__block{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /*We do*/
+    .wedo{
+        display: flex;
+        flex-direction: column;
+        .wedo__item{
+            padding-top: 20px;
+            justify-content: center;
+            width: 100%;
+        }
+    }
+
+    /*Works*/
+    .works{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    /*Comments*/
+    .comments__item{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /*People*/
+    .people__block{
+        display: flex;
+        flex-wrap: wrap;
+        .people__item{
+            width: 25%;
+            img{
+                display: none;
             }
         }
+    }
+
+    /*Blog*/
+    .blog{
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+    }
+
+    /*Footer*/
+    .footer__inner{
+        display: flex;
+        flex-direction: column;
+    }
 }

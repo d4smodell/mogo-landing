@@ -68,7 +68,62 @@ img {
 
   /*Slider*/
   .intro .slider {
-    display: none; } }
+    display: none; }
+
+  /*Stat*/
+  .stat {
+    display: flex;
+    flex-wrap: wrap; }
+
+  /*Services*/
+  .services__block {
+    display: flex;
+    flex-wrap: wrap; }
+
+  /*We do*/
+  .wedo {
+    display: flex;
+    flex-direction: column; }
+    .wedo .wedo__item {
+      padding-top: 20px;
+      justify-content: center;
+      width: 100%; }
+
+  /*Card*/
+  .card {
+    display: flex;
+    flex-wrap: wrap; }
+
+  .card__item {
+    width: 100%;
+    max-width: 410px; }
+
+  /*Works*/
+  .works {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; }
+
+  /*Comments*/
+  .comments__item {
+    display: flex;
+    flex-wrap: wrap; }
+
+  /*People*/
+  .people__block {
+    display: flex;
+    flex-wrap: wrap; }
+    .people__block .people__item {
+      width: 25%; }
+      .people__block .people__item img {
+        display: none; }
+
+  /*Blog*/
+  .blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center; } }
 @media (max-width: 650px) {
   /*Intro*/
   .intro__inner .intro__title {
@@ -81,8 +136,72 @@ img {
     padding: 40px 0; }
     .section .section__title {
       font-size: 24px; }
+    .section .section__title {
+      margin: 20px auto; }
     .section .section__subtitle {
-      font-size: 20px; } }
+      font-size: 20px; }
+    .section .section__header {
+      margin-bottom: 30px; }
+
+  /*Card*/
+  .card {
+    display: flex;
+    flex-wrap: wrap; }
+
+  .card__item {
+    width: 100%;
+    max-width: 410px; }
+
+  /*Stat*/
+  .stat {
+    display: flex;
+    flex-direction: column; }
+
+  /*Services*/
+  .services__block {
+    display: flex;
+    flex-wrap: wrap; }
+
+  /*We do*/
+  .wedo {
+    display: flex;
+    flex-direction: column; }
+    .wedo .wedo__item {
+      padding-top: 20px;
+      justify-content: center;
+      width: 100%; }
+
+  /*Works*/
+  .works {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; }
+
+  /*Comments*/
+  .comments__item {
+    display: flex;
+    flex-wrap: wrap; }
+
+  /*People*/
+  .people__block {
+    display: flex;
+    flex-wrap: wrap; }
+    .people__block .people__item {
+      width: 25%; }
+      .people__block .people__item img {
+        display: none; }
+
+  /*Blog*/
+  .blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center; }
+
+  /*Footer*/
+  .footer__inner {
+    display: flex;
+    flex-direction: column; } }
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
@@ -692,7 +811,7 @@ body {
       text-decoration: none; }
       .map .map__title a:hover {
         opacity: .7;
-        transition: .3s; }
+        transition: .2s; }
     .map .map__title:after {
       content: '';
       display: block;
